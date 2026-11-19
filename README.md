@@ -154,6 +154,7 @@ A previous V11 build was reported to exceed its selected application partition. 
 - [Pinout and matrix mapping](docs/PINOUT.md)
 - [Installation guide](docs/INSTALLATION.md)
 - [Test checklist](docs/TESTING.md)
+- [OpenChess 3D model reference and compatibility notes](docs/3D_MODEL_REFERENCE.md)
 
 ## Contributing
 
