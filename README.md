@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/smart-chess-banner.svg" alt="Smart Chess" width="100%">
+<img src="assets/smart-chess-banner-v2.svg" alt="Smart Chess project banner" width="100%">
 
 # Smart Chess
 
@@ -97,7 +97,7 @@ The documented logical-file mapping is **GPIO 27, 4, 5, 23, 32, 26, 33, 25** for
 2. Install the Espressif ESP32 board package.
 3. Select an ESP32-WROOM-32U-compatible board profile and the correct serial port.
 4. Install the libraries required by the selected firmware version (including FastLED where used).
-5. Open the firmware sketch from `firmware/`.
+5. Open `firmware/SmartChess_V12_COMPLETE_SINGLE_FILE.ino`.
 6. Verify/compile before uploading.
 7. Connect to the board's Wi-Fi access point.
 8. Open the main dashboard or hardware console in a browser.
@@ -129,17 +129,18 @@ smart_chess/
 │   ├── INSTALLATION.md
 │   └── TESTING.md
 └── assets/
+    ├── smart-chess-banner-v2.svg
     ├── smart-chess-banner.svg
     └── system-architecture.svg
 ```
 
 ## Project status and verification
 
-Smart Chess is an active maker project. The repository should distinguish between what is present in source code and what has actually been verified.
+The **V12 single-file firmware is included** in `firmware/SmartChess_V12_COMPLETE_SINGLE_FILE.ino`. The source has been committed to the public repository; it has not been independently compiled or tested on the assembled board in this update.
 
 | Verification level | Status |
 |---|---|
-| Firmware source | V12 source identified; repository copy pending |
+| Firmware source | V12 source committed |
 | Arduino compilation | Not independently verified here |
 | Browser testing | Not independently verified here |
 | Physical board testing | Requires the assembled hardware |
